@@ -1,2 +1,0 @@
-# libmedusa
-Medusa Library
