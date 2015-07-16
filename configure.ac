@@ -22,7 +22,7 @@ AC_TYPE_UINT32_T
 AC_TYPE_UINT64_T
 AC_TYPE_UINT8_T
 
-AC_CHECK_HEADERS([arpa/inet.h netinet/in.h stdint.h stdlib.h string.h sys/socket.h unistd.h])
+AC_CHECK_HEADERS([arpa/inet.h netinet/in.h netinet/sctp.h stdint.h stdlib.h string.h sys/socket.h unistd.h])
 AC_PROG_CC
 AM_PROG_LIBTOOL
-AC_OUTPUT
+AC_OUTPUT 

@@ -65,7 +65,6 @@ libmedusa_la_SOURCES= \
     \
    src/dsp/medusa_dsp_hton.c \
    src/dsp/medusa_dsp_quantization.c \
-   src/dsp/medusa_dsp_opus.c \
    src/dsp/medusa_dsp.c \
    src/dsp/medusa_dsp_interleave.c \
    src/dsp/medusa_dsp_resample.c 

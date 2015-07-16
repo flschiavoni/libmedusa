@@ -8,7 +8,6 @@
  *
  * @ingroup dsp
  */
-#include <opus/opus.h>
 #include "medusa.h"
 
 union medusa_integer{
@@ -114,21 +113,6 @@ void medusa_dsp_mix_channels(
 void medusa_dsp_white_noise(
          float * data,
          size_t data_size
-         );
-
-int medusa_dsp_encode_opus32(
-         int sr,
-         const float * audio_frame,
-         int frame_size,
-         unsigned char * packet
-         );
-
-int medusa_dsp_decode_opus32(
-         int sr,
-         unsigned char * packet,
-         int len,
-         float * decoded,
-         int max_size
          );
 
 #endif /* MEDUSA_DSP_H */

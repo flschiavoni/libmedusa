@@ -1,0 +1,13 @@
+To compile
+----------
+./script.sh
+
+
+To Install
+----------
+sudo make install
+
+
+Dependencies
+------------
+sudo apt-get install libsctp1 libsctp-dev
