@@ -1,7 +1,11 @@
+First step, install GNU autotools
+---------------------------------
+sudo apt-get install automake autoconf libtool
+
+
 To compile
 ----------
 ./script.sh
-
 
 To Install
 ----------
